@@ -24,7 +24,6 @@ const unescapeString = (str) => {
     return str;
 };
 
-
 const handleEscapeObject = (obj, fn) => {
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
