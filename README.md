@@ -1,4 +1,4 @@
-# workplus-escape [![npm](https://img.shields.io/npm/v/workplus-query-string.svg?maxAge=2592000?style=flat-square)]()
+# workplus-escape [![npm](https://img.shields.io/npm/v/workplus-escape.svg?maxAge=2592000?style=flat-square)]()
 
 >Toggle Escape string and object for use in HTML. 
 
