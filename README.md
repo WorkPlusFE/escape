@@ -41,7 +41,7 @@ let jbo = unescapeObject(obj);
 
 ```
 
-[Why not use "&apos;"](https://blogs.msdn.microsoft.com/kirillosenkov/2010/03/19/apos-is-in-xml-in-html-use-39/)
+[Why not use "&amp;apos;"](https://blogs.msdn.microsoft.com/kirillosenkov/2010/03/19/apos-is-in-xml-in-html-use-39/)
 
 ## License
 
