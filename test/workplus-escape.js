@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 const escapeChars = {
     "&": "&amp;",
     "'": "&#39;",
@@ -46,9 +48,7 @@ const unescapeObject = (obj) => {
     return handleEscapeObject(obj, unescapeString);
 };
 
-export {
-    escapeString,
-    unescapeString,
-    escapeObject,
-    unescapeObject
-};
+exports.escapeString = escapeString;
+exports.unescapeString = unescapeString;
+exports.escapeObject = escapeObject;
+exports.unescapeObject = unescapeObject;

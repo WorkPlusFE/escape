@@ -4,7 +4,10 @@
   "description": "Escape or unescape string for use in HTML.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "prepublish": "npm test",
+    "test": "ava test/index.js",
+    "pretest": "npm run build",
+    "build": "rollup index.js --output test/workplus-escape.js --format cjs"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/WorkPlusFE/workplus-escape#readme",
   "devDependencies": {
-    "ava": "^0.17.0"
+    "ava": "^0.17.0",
+    "rollup": "^0.36.4"
   }
 }
