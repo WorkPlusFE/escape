@@ -1,0 +1,27 @@
+{
+  "name": "workplus-escape",
+  "version": "1.0.0",
+  "description": "Escape or unescape string for use in HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkPlusFE/workplus-escape.git"
+  },
+  "keywords": [
+    "workplus",
+    "escape",
+    "unescape"
+  ],
+  "author": "Hejx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorkPlusFE/workplus-escape/issues"
+  },
+  "homepage": "https://github.com/WorkPlusFE/workplus-escape#readme",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
