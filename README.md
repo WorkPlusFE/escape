@@ -1,6 +1,6 @@
 # workplus-escape [![npm](https://img.shields.io/npm/v/workplus-escape.svg?maxAge=2592000?style=flat-square)]()
 
->Toggle Escape string and object for use in HTML. 
+>Toggle escape string and object for use in HTML. 
 
 ## Install
 
@@ -42,6 +42,16 @@ let jbo = unescapeObject(obj);
 ```
 
 [Why not use "&amp;apos;"](https://blogs.msdn.microsoft.com/kirillosenkov/2010/03/19/apos-is-in-xml-in-html-use-39/)
+
+## Development
+
+```bash
+git clone https://github.com/WorkPlusFE/workplus-escape.git
+
+npm install
+
+npm test
+```
 
 ## License
 
