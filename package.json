@@ -1,13 +1,13 @@
 {
   "name": "workplus-escape",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Escape or unescape string for use in HTML.",
-  "main": "index.js",
+  "main": "lib/workplus-escape.js",
   "scripts": {
     "prepublish": "npm test",
     "test": "ava test/index.js",
     "pretest": "npm run build",
-    "build": "rollup index.js --output test/workplus-escape.js --format cjs"
+    "build": "rollup index.js --output lib/workplus-escape.js --format cjs"
   },
   "repository": {
     "type": "git",

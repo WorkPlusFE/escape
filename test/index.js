@@ -4,7 +4,7 @@ import {
     unescapeString,
     escapeObject,
     unescapeObject
-} from './workplus-escape.js';
+} from '../lib/workplus-escape.js';
 
 test('Escape the string correctly', t => {
     const str1 = '<h1></h1>"';
@@ -43,10 +43,13 @@ test('Unescape the obect correctly', t => {
             x: {
                 y: '&quot;'
             }
-        }
+        },
+        c: [1, '&quot;', {e: '&quot;', f: null}]
     };
     let objAfter = unescapeObject(obj);
     t.is('<h1></h1>"', objAfter.a);
     t.is('"', objAfter.b.x.y);
+    t.is('"', objAfter.c[1]);
+    t.is('"', objAfter.c[2].e);
     t.pass();
 });
