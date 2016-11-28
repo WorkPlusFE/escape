@@ -1,6 +1,6 @@
 {
   "name": "workplus-escape",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Escape or unescape string for use in HTML.",
   "main": "lib/workplus-escape.js",
   "jsnext:main": "lib/workplus-escape.mjs",
