@@ -16,7 +16,7 @@ import {
     unescapeString,
     escapeObject,
     unescapeObject 
-} from 'workplus-query-string';
+} from 'workplus-escape';
 
 const str = escapeString('<h1></h1>"');
 // str => '&lt;h1&gt;&lt;/h1&gt;&quot;'
