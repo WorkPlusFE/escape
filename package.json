@@ -1,9 +1,12 @@
 {
-  "name": "workplus-escape",
+  "name": "@w6s/escape",
   "version": "1.0.2",
   "description": "Escape or unescape string for use in HTML.",
   "main": "lib/workplus-escape.js",
   "jsnext:main": "lib/workplus-escape.mjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava test/index.js",
     "pretest": "npm run build",
@@ -13,19 +16,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WorkPlusFE/workplus-escape.git"
+    "url": "git+https://github.com/WorkPlusFE/escape.git"
   },
   "keywords": [
     "workplus",
     "escape",
-    "unescape"
+    "unescape",
+    "w6s"
   ],
   "author": "Hejx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WorkPlusFE/workplus-escape/issues"
+    "url": "https://github.com/WorkPlusFE/escape/issues"
   },
-  "homepage": "https://github.com/WorkPlusFE/workplus-escape#readme",
+  "homepage": "https://github.com/WorkPlusFE/escape#readme",
   "devDependencies": {
     "ava": "^0.17.0",
     "rollup": "^0.36.4",

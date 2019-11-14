@@ -1,11 +1,11 @@
-# workplus-escape [![npm](https://img.shields.io/npm/v/workplus-escape.svg?maxAge=2592000?style=flat-square)]()
+# @w6s/escape
 
 >Toggle escape string and object for use in HTML. 
 
 ## Install
 
 ```bash
-npm install --save workplus-escape
+npm install --save @w6s/escape
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ import {
     unescapeString,
     escapeObject,
     unescapeObject 
-} from 'workplus-escape';
+} from '@w6s/escape';
 
 const str = escapeString('<h1></h1>"');
 // str => '&lt;h1&gt;&lt;/h1&gt;&quot;'
@@ -46,7 +46,7 @@ let jbo = unescapeObject(obj);
 ## Development
 
 ```bash
-git clone https://github.com/WorkPlusFE/workplus-escape.git
+git clone https://github.com/WorkPlusFE/escape.git
 
 npm install
 
